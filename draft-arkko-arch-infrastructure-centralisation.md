@@ -1,7 +1,7 @@
 ---
 title: Recommendations on the Centralised Architectures in Internet Infrastructure
 abbrev: Centralised Architectures
-docname: draft-arkko-arch-infrastructure-centrslisation-and-encryption-recommendations
+docname: draft-arkko-arch-infrastructure-centralisation-00
 date:
 category: info
 
