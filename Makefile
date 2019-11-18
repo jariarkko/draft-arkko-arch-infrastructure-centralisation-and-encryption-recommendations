@@ -1,5 +1,5 @@
 
-base:	draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.txt
+base:	draft-arkko-arch-infrastructure-centralisation.txt
 
 LIBDIR := lib
 include $(LIBDIR)/main.mk
@@ -16,10 +16,10 @@ endif
 cleantrash:
 	rm -f *~
 
-jaricompile:	draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.txt Makefile
-	scp draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.txt \
-		jar@cloud1.arkko.eu:/var/www/www.arkko.com/html/ietf/dns
+jaricompile:	draft-arkko-arch-infrastructure-centralisation.txt Makefile
+	scp draft-arkko-arch-infrastructure-centralisation.txt \
+		jar@cloud1.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
 
-#		draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.diff.html \
-#	rfcdiff draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations-00.txt draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.txt
-#	cp draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations-from--00.diff.html draft-arkko-arch-infrastructure-centralisation-and-encryption-recommendations.diff.html
+#		draft-arkko-arch-infrastructure-centralisation.diff.html \
+#	rfcdiff draft-arkko-arch-infrastructure-centralisation-00.txt draft-arkko-arch-infrastructure-centralisation.txt
+#	cp draft-arkko-arch-infrastructure-centralisation-from--00.diff.html draft-arkko-arch-infrastructure-centralisation.diff.html
